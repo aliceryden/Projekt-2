@@ -15,7 +15,7 @@ class Häst:
         if månad not in self.data:
             self.data[månad] = {}
         self.data[månad][datum.strftime('%Y-%m-%d')] = kilo
-    
+    # hejhej
     def ladda_data(self): 
         if os.path.exists(self.filnamn):
             with open(self.filnamn, 'r') as fil:
